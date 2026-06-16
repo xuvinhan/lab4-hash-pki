@@ -1,0 +1,41 @@
+# Build files
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# Executables / objects
+*.exe
+*.o
+*.obj
+*.dll
+*.a
+*.lib
+*.pdb
+
+# Generated samples / benchmark data
+samples/*.bin
+samples/*.der
+samples/*.hex
+samples/*.raw
+samples/bench_*.bin
+samples/forged_*.bin
+samples/md5_collision_*.bin
+
+# Generated certificates / private keys
+certs/
+*.pem
+*.der
+*.key
+
+# Logs / temp
+*.log
+*.tmp
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
